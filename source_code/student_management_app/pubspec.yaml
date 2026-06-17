@@ -1,0 +1,47 @@
+name: student_management_app
+description: A student management application with attendance tracking
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.2.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # DATABASE
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # UTILITY
+  intl: ^0.18.1
+  provider: ^6.0.5
+
+  # QR SCANNING
+  mobile_scanner: ^4.0.0
+
+  # REPORTS & SHARING - COMMENTED OUT
+  # share_plus: ^7.2.1
+  printing: ^5.11.1
+  pdf: ^3.10.4
+  csv: ^5.1.1
+
+  # LOCATION & PERMISSIONS - COMMENTED OUT
+  # location: ^5.0.3
+  # geolocator: ^10.0.0
+  # permission_handler: ^11.0.1
+
+  # DEVICE INFO - COMMENTED OUT
+  # device_info_plus: ^9.1.0
+
+  # NOTIFICATIONS - COMMENTED OUT
+  # flutter_local_notifications: ^16.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
